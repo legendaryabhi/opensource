@@ -1,0 +1,99 @@
+---
+title: Open-Source Sprint
+description: Get started building your docs site with Starlight & the Ion theme.
+tableOfContents: false
+hero:
+  tagline: by SmilingRobo
+  image:
+    file: ../../assets/logo.png
+  actions:
+    - text: Start Contributing
+      link: /starlight-ion-theme/features/
+      icon: right-arrow
+      variant: primary
+    - text: Visit Github
+      link: https://starlight.astro.build
+      icon: external
+---
+import HeaderBadge from '@/components/HeaderBadge.astro';
+
+
+<div style={{ textAlign: 'center' }}>
+  #### Featured Projects
+</div>
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="imagination-to-real" icon="github"> 
+    Train your robot to do whatever you want using Generative AI <br/> 
+    [Click to Contribute](/projects/imagination-to-real/)  <br/>
+  </Card>
+  <Card title="real-to-sim-to-real" icon="github">
+    Train your Robot in your custom environment.<br/>
+    [Click to Contribute](/projects/real-to-sim-to-real/)
+  </Card>
+</CardGrid>
+
+<br/>
+<br/>
+---
+
+#### About the Sprint
+
+The **SmilingRobo Open-Source Sprint** is designed to bring students and researchers together to create a thriving open-source community in the robotics field. This sprint aims to foster collaboration, drive innovation, and contribute to the advancement of robotics through open-source projects.
+
+**Who Can Participate?**  
+- Students passionate about robotics and technology.  
+- Researchers looking to share their knowledge and work.  
+- Anyone enthusiastic about building open-source solutions.
+
+
+#### Benefits <HeaderBadge text="For you!" />
+
+Participating in the SmilingRobo Open-Source Sprint comes with a range of benefits:
+
+- **Collaboration Opportunities**: Work with like-minded innovators from around the globe.  
+- **Access to Resources and Datasets**: Utilize top-notch tools and datasets to bring your ideas to life.  
+- **Guidance from Experts**: Gain valuable insights and mentorship from experienced professionals.  
+- **Recognition and Rewards**:  
+  - Get listed on the **Contributor Wall** for your contributions.  
+  - Job opportunities if your collaboration is selected.  
+  - The **SmilingRobo Tag** to showcase on your resume.  
+  - Shoutouts on SmilingRobo's social media platforms.
+
+---
+
+import TestimonialGrid from '../../components/testimonial-grid.astro';
+import Testimonial from '../../components/testimonial.astro';
+
+<TestimonialGrid title="Updates">
+  <Testimonial
+    name="Abhinav"
+    handle="abhinavsharma_x"
+    cite="https://twitter.com/@abhinavsharma_x"
+  >
+    The Astro team have EVOLVED how docs can be done and you can get it all out of the box with their Starlight project.
+  </Testimonial>
+  <Testimonial
+    name="SmilingRobo"
+    handle="smilingrobo"
+    cite="https://twitter.com/@smilingrobo"
+  >
+    Astro’s official starter kit Starlight is a truly incredible tool for building a documentation website
+  </Testimonial>
+  
+</TestimonialGrid>
+
+
+import About from '../../components/aboutsmilingrobo.astro';
+
+<About title="Brought to you by">
+SmilingRobo is a platform for open-source robotics. 
+
+We build tools and technologies to make robotics the next big thing.
+
+[Visit SmilingRobo](https://www.smilingrobo.com/)
+
+</About>
+
+
