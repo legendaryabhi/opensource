@@ -22,10 +22,8 @@ export default defineConfig({
         directory: 'projects'
       }
     }, {
-      label: '[box] Guides',
-      autogenerate: {
-        directory: 'guides'
-      }
+      label: '[list] How to Contribute',
+      link: '/how-to-contribute/'
     }],
     components: {
       ThemeProvider: './src/components/ThemeProvider.astro',
