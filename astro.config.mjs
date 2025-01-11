@@ -11,7 +11,10 @@ export default defineConfig({
       src: './src/assets/logo.png'
     },
     social: {
-      github: 'https://github.com/SmilingRobo/'
+      github: 'https://github.com/SmilingRobo/',
+      linkedin: 'https://www.linkedin.com/company/smilingrobo/',
+      twitter:'https://x.com/smilingrobo',
+      youtube: 'https://www.youtube.com/@SmilingRoboOrg'
     },
     sidebar: [{
       label: '[home] Home',
