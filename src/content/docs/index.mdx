@@ -24,12 +24,20 @@ import HeaderBadge from '@/components/HeaderBadge.astro';
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid>
-  <Card title="imagination-to-real" icon="github"> 
+  <Card title="imagination-to-real " icon="github" > 
     Train your robot to do whatever you want using Generative AI <br/> 
     [Click to Contribute](/projects/imagination-to-real/)  <br/>
   </Card>
   <Card title="real-to-sim-to-real" icon="github">
     Train your Robot in your custom environment.<br/>
+    [Click to Contribute](/projects/real-to-sim-to-real/)
+  </Card>
+  <Card title="open-source-robotics" icon="github">
+    GitHub Repository containing all the Open-Source Robotics Projects from around the world.<br/>
+    [Click to Contribute](/projects/open-source-robotics-projects/)
+  </Card>
+  <Card title="GUI for real-to-sim-to-real" icon="github">
+    Scan your room with your phone and convert it into a 3d environment. **Created for real-to-sim-to-real** Library<br/>
     [Click to Contribute](/projects/real-to-sim-to-real/)
   </Card>
 </CardGrid>
@@ -67,6 +75,20 @@ import TestimonialGrid from '../../components/testimonial-grid.astro';
 import Testimonial from '../../components/testimonial.astro';
 
 <TestimonialGrid title="Updates">
+<Testimonial
+    name="SmilingRobo"
+    handle="smilingrobo"
+    cite="https://twitter.com/@smilingrobo"
+  >
+    Added gui for real-to-sim-to-real in open-source sprint, The GUI for Real-to-Sim-to-Real is a user-friendly interface designed to simplify the process of creating, configuring, and exporting custom robot environments
+  </Testimonial>
+<Testimonial
+    name="SmilingRobo"
+    handle="smilingrobo"
+    cite="https://twitter.com/@smilingrobo"
+  >
+    Added open-source-robotics repo in open-source sprint. Our Mission with this is to create a GitHub repository where people can discover all the open-source robotics projects from around the world.
+  </Testimonial>
   <Testimonial
     name="Abhinav"
     handle="abhinavsharma_x"

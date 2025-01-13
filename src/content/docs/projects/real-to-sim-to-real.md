@@ -4,11 +4,11 @@ description: Train your Robot in your custom environment.
 ---
 
 
-#### 🌍 Mission
+### 🌍 Mission
 
 The mission of the **Real-to-Sim-to-Real Framework** is to create tools and libraries that empower users to train their robots in **custom environments** tailored to their specific needs. The framework also enables users to **create their own environments** easily using just their **smartphone**. This mission aims to democratize access to robotics development, making it accessible to everyone, regardless of their expertise or resources.
 
-#### 🔑 Why It Matters
+### 🔑 Why It Matters
 
 This framework is significant because it allows **everyone**—from hobbyists to professionals—to train their robots for **custom tasks**, specific workflows, and various real-world applications. The ability to **create simulations on a smartphone** gives users the flexibility to design environments that closely match the tasks their robots need to perform. 
 
@@ -21,25 +21,25 @@ By making it easy to create and deploy robots for **real-world work** without re
 
 This framework ensures that **robotics development** is no longer limited to those with large budgets or advanced technical teams, but available to anyone with an idea.
 
-#### 🚀 Key Features
+### 🚀 Key Features
 
-### Environment Setup
+#### Environment Setup
 - Simplified process to **load and configure Isaac Gym environments** tailored to your simulation needs.
   
-### Data Collection
+#### Data Collection
 - Effortlessly **collect and store demonstration data** from the simulated environment for reinforcement learning tasks.
 
-### Reinforcement Learning
+#### Reinforcement Learning
 - Use **GPU-accelerated reinforcement learning** methods to train policies that can be transferred to real-world robots.
 
-### Teacher-Student Distillation
+#### Teacher-Student Distillation
 - **Transfer skills** from complex teacher models to simpler student models, making it easier to deploy advanced policies on real robots.
 
-### Real-World Deployment
+#### Real-World Deployment
 - Deploy your trained policies on **real robotic setups**, ensuring a smooth transition from simulated to real environments.
 
 
-#### 🤝 How to Contribute
+### 🤝 How to Contribute
 
 We invite the community to contribute to the **Real-to-Sim-to-Real Framework**! You can help by:
 
@@ -51,7 +51,7 @@ To contribute, submit your pull requests on the [GitHub Repository](https://gith
 
 If you're unsure where to begin, feel free to open an **issue** for any questions or suggestions.
 
-#### 🎉 Benefits of Contributing
+### 🎉 Benefits of Contributing
 
 - **Collaboration Opportunities**: Work with robotics innovators globally.
 - **Access to Resources**: Get access to high-quality datasets and tools.
@@ -63,3 +63,19 @@ If you're unsure where to begin, feel free to open an **issue** for any question
   - **Shoutouts** on SmilingRobo’s social media to recognize your contributions.
 
 Start contributing and help us advance robotic policy training using the **Real-to-Sim-to-Real Framework**!
+
+### Credits
+
+Thanks to MITCSAIL for their opensource **RialTO**, which we have used as a base under MIT license.
+
+```
+@article{torne2024reconciling,
+  title={Reconciling Reality through Simulation: A Real-to-Sim-to-Real Approach for Robust Manipulation},
+  author={Torne, Marcel and Simeonov, Anthony and Li, Zechu and Chan, April and Chen, Tao and Gupta, Abhishek and Agrawal, Pulkit},
+  journal={arXiv preprint arXiv:2403.03949},
+  year={2024}
+}
+```
+
+## Links 
+[GitHub Repository](https://github.com/SmilingRobo/real-to-sim-to-real)
