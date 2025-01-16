@@ -8,19 +8,15 @@ export default defineConfig({
   base: '/',
   integrations: [starlight({
     head: [
-      // Example: add Microsoft Clarity script tag.
+      // Example: add Fathom analytics script tag.
       {
         tag: 'script',
         attrs: {
-          type: 'text/javascript',
+          src: 'https://www.clarity.ms/tag/puub8562bk',
+        async: true,
+        type: 'text/javascript',
+          defer: true,
         },
-        children: `
-          (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "puub8562bk");
-        `,
       },
     ],
     title: 'Open-Source Sprint',
