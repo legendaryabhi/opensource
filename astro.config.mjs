@@ -3,9 +3,26 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  
   site: 'https://opensource.smilingrobo.com',
   base: '/',
   integrations: [starlight({
+    head: [
+      // Example: add Microsoft Clarity script tag.
+      {
+        tag: 'script',
+        attrs: {
+          type: 'text/javascript',
+        },
+        children: `
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "puub8562bk");
+        `,
+      },
+    ],
     title: 'Open-Source Sprint',
     logo: {
       src: './src/assets/logo.png'
@@ -51,4 +68,5 @@ export default defineConfig({
     lastUpdated: true
   })],
   output: "static"
+  
 });
