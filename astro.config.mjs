@@ -7,18 +7,24 @@ export default defineConfig({
   site: 'https://opensource.smilingrobo.com',
   base: '/',
   integrations: [starlight({
+    
     head: [
-      // Example: add Fathom analytics script tag.
+      // Adding google analytics
       {
         tag: 'script',
         attrs: {
-          src: 'https://www.clarity.ms/tag/puub8562bk',
-        async: true,
-        type: 'text/javascript',
-          defer: true,
-        },
+          type: 'text/javascript',
+        },  
+        content: `
+        (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "puub8562bk");
+        `,
       },
     ],
+
     title: 'Open-Source Sprint',
     logo: {
       src: './src/assets/logo.png'
