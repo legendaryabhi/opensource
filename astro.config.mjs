@@ -46,6 +46,9 @@ export default defineConfig({
     }, {
       label: '[list] How to Contribute',
       link: '/how-to-contribute/'
+    }, {
+      label: '[book] Join Discussion',
+      link: 'https://github.com/orgs/SmilingRobo/discussions'
     }],
     components: {
       ThemeProvider: './src/components/ThemeProvider.astro',
