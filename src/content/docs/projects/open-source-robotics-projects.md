@@ -24,9 +24,11 @@ Whether you're a student, researcher, or robotics enthusiast, finding quality op
 This repository thrives on community contributions. You can:  
 1. **Submit New Projects**: Propose open-source robotics projects from anywhere in the world.  
 2. **Organize and Improve**: Help categorize projects or improve documentation.  
-3. **Collaborate Globally**: Work with contributors to build the most comprehensive robotics resource.  
 
 ### 🚀 How to Contribute  
+
+<iframe src="https://www.youtube.com/embed/Goo_Yj6WbCY" title="How to Contribute to open-source-robotics Repository | Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Getting involved is simple:  
 1. Fork the repository: [open-source-robotics Repo](https://github.com/SmilingRobo/open-source-robotics).  
 2. Make your changes—add a project, fix typos, or enhance documentation.  
